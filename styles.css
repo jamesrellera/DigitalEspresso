@@ -1,0 +1,173 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #6b3e26;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#logo {
+    height: 100px;
+}
+
+nav#navbar {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+nav#navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav#navbar a:hover {
+    color: #ffd700;
+}
+
+#main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+#products-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#products-table th, 
+#products-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#footer {
+    background: #6b3e26;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #6b3e26;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+/* Fade-In Animation */
+.fade-in {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* Button Style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #6b3e26;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #503c1f;
+}
+
+/* Feature Image Style */
+.featured-product {
+    width: 600px;
+    height: 2;
+    display: block;
+    margin: auto;
+}
+
+
+/* Fade-In Animation for Main Content */
+#main-content {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* Centering Images in Products Table */
+#products-table img {
+    display: block;
+    margin: auto;
+    width: 200px; 
+    height: auto;
+
+}
+/* Button Style */
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #6b3e26;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    max-width: 200px; /* Set a maximum width for the button */
+    width: 100%; /* Make the button width 100% of its container */
+}
+
+.button:hover {
+    background-color: #503c1f;
+}
+
+/* Button Link Style */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b3e26;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #503c1f;
+}
+
+
+
+
+
